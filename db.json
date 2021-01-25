@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "email": "test@namoosori.com",
+      "name": "test1",
+      "nickname": "test",
+      "phoneNumber": "01011111111",
+      "birtyDay": "20210125",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "email": "test@namoosori.com",
+      "name": "test2",
+      "nickname": "test",
+      "phoneNumber": "01011111111",
+      "birtyDay": "20210125",
+      "password": "1234",
+      "id": 2
+    }
+  ]
+}

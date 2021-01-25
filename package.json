@@ -3,15 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve && json-server --watch db.json --port 18080",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "json-server": "^0.16.3",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-vue": "^0.11.0",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-session": "^1.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.0",
