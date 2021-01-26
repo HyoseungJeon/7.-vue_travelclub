@@ -1,16 +1,14 @@
 <template>
   <div>
     <main-header @onClickMenu="handelClickMenu"/>
-    <defalut-page v-if="currentPage==='defalut'"/>
-    <sign-in v-else-if="currentPage==='logIn'"/>
-    <defalut-page v-else/>
+    <router-view>
+
+    </router-view>
   </div>
 </template>
 
 <script>
 import MainHeader from './components/MainHeader.vue'
-import DefalutPage from './components/page/DefalutPage.vue'
-import SignIn from './components/SignIn.vue'
 export default {
   name: 'App',
   data(){
@@ -19,14 +17,16 @@ export default {
     }
   },
   components: {
-    SignIn,
-    DefalutPage,
-    MainHeader
+    MainHeader,
+    // SignIn,
+    // DefalutPage,
+    // MyInfo,
+    // RegisterMember,
   },
   methods:{
     handelClickMenu:function(pageName){
       this.currentPage=pageName
-      console.log(pageName)
+      console.log
     }
   }
 }

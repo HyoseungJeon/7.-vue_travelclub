@@ -10,13 +10,56 @@
       "id": 1
     },
     {
-      "email": "test@namoosori.com",
+      "email": "test2@namoosori.com",
       "name": "test2",
       "nickname": "test",
       "phoneNumber": "01011111111",
       "birtyDay": "20210125",
       "password": "1234",
       "id": 2
+    },
+    {
+      "email": "test1234",
+      "name": "test",
+      "nickname": "test",
+      "phoneNumber": "1234",
+      "birtyDay": "1234",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "email": "123123123",
+      "name": "123",
+      "nickname": "123",
+      "phoneNumber": "123",
+      "birtyDay": "123",
+      "password": "123",
+      "id": 4
+    }
+  ],
+  "clubs":[
+    {
+      "id" : 1,
+      "name" : "club1",
+      "intro" : "welcome our club1",
+      "foundationDate" : "2021-01-26",
+      "memberCounts" : "110",
+      "isAdmin": true
+    },{
+      "id" : 2,
+      "name" : "club2",
+      "intro" : "welcome our club2",
+      "foundationDate" : "2021-01-26",
+      "memberCounts" : "120",
+      "isAdmin": true
+    },
+    {
+      "id" : 3,
+      "name" : "club3",
+      "intro" : "welcome our club3",
+      "foundationDate" : "2021-01-26",
+      "memberCounts" : "130",
+      "isAdmin": false
     }
   ]
 }
